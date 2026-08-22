@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DigitalCourse Pro</title>
+<style>
+*{box-sizing:border-box;font-family:Arial;margin:0;padding:0}body{background:#f5f7fb}
+header{position:sticky;top:0;background:#0b57d0;color:#fff;padding:15px}
+nav{display:flex;justify-content:space-between;align-items:center;max-width:1100px;margin:auto}
+.links{display:flex;gap:16px}.links a{color:#fff;text-decoration:none}
+.hero{padding:70px 20px;text-align:center;background:linear-gradient(135deg,#0b57d0,#5e9cff);color:#fff}
+.btn{display:inline-block;background:#ff9800;color:#fff;padding:12px 18px;border-radius:8px;text-decoration:none;margin:8px}
+.container{max-width:1100px;margin:auto;padding:35px 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#fff;padding:20px;border-radius:12px;box-shadow:0 3px 10px rgba(0,0,0,.1)}
+.float{position:fixed;right:15px;bottom:20px;display:flex;flex-direction:column;gap:10px}
+.float a{width:55px;height:55px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;color:#fff;font-size:24px}.call{background:#0b57d0}.wa{background:#25D366}
+@media(max-width:768px){.links{display:none}nav{justify-content:center}}
+</style></head><body>
+<header><nav><h2>DigitalCourse Pro</h2><div class="links"><a href="#courses">Courses</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a></div></nav></header>
+<section class="hero"><h1>Master Google Ads Like a Pro</h1><p>Practice Search • Display • PMAX • GA4 • GTM</p>
+<a class="btn" href="#pricing">Enroll Now</a><a class="btn" href="#contact">Book Demo</a></section>
+<div class="container" id="courses"><h2>Popular Courses</h2><div class="grid">
+<div class="card"><h3>Google Ads</h3><p>Search, Display & PMAX</p></div>
+<div class="card"><h3>Meta Ads</h3><p>Facebook & Instagram</p></div>
+<div class="card"><h3>GA4</h3><p>Events & Reports</p></div>
+<div class="card"><h3>SEO</h3><p>Keyword Research</p></div></div></div>
+<div class="container" id="pricing"><h2>Pricing</h2><div class="grid">
+<div class="card"><h3>Starter</h3><p>₹999</p><a class="btn" href="checkout.html">Buy</a></div>
+<div class="card"><h3>Pro</h3><p>₹1999</p><a class="btn" href="checkout.html">Buy</a></div>
+<div class="card"><h3>Premium</h3><p>₹4999</p><a class="btn" href="checkout.html">Buy</a></div></div></div>
+<div class="container" id="contact"><h2>Book Free Demo</h2><form action="thank-you.html">
+<input placeholder="Name" required style="width:100%;padding:12px;margin:8px 0"><input placeholder="Email" required style="width:100%;padding:12px;margin:8px 0">
+<button style="width:100%;padding:12px;background:#0b57d0;color:#fff;border:none;border-radius:8px">Submit</button></form></div>
+<footer style="background:#111;color:#fff;text-align:center;padding:25px;margin-top:30px">DigitalCourse Pro • Privacy • Terms</footer>
+<div class="float"><a class="call" href="tel:+919999999999">📞</a><a class="wa" href="#">💬</a></div>
+</body></html>
